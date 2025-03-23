@@ -7,9 +7,9 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Post {
-  id       String    @id @default(auto()) @map("_id") @db.ObjectId
-  slug     String    @unique
-  title    String
-  body     String
+model Cable {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  name          String
+  quantity      Int
+  catalogNumber String
 }
