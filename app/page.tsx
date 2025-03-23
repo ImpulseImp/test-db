@@ -2,7 +2,6 @@ import React from 'react';
 // import MyTables from '@/components/MyTables';
 import Link from 'next/link';
 const HomePage = () => {
-  console.log(process.env.MONGODB_URI);
   return (
     <div className=''>
       {/* <MyTables /> */}

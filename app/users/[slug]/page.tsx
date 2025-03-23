@@ -1,9 +1,4 @@
-import { sayHello } from '@/utils/actions';
-
-async function SingleUserPage({ params }: { params: { slug: string } }) {
-  const { slug } = await params;
-  sayHello(slug);
-
-  return <div>SingleUserPage</div>;
+function page() {
+  return <div>page</div>;
 }
-export default SingleUserPage;
+export default page;
