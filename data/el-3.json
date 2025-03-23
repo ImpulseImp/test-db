@@ -1,0 +1,484 @@
+{
+  "panels": [
+    {
+      "name": "РП-1",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №1",
+        "mainBreaker": {
+          "type": "ABB SACE Tmax T2",
+          "rating": "250 А"
+        }
+      },
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C16",
+          "consumer": "Розетки кабинет №201",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "15 м"
+          }
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C16",
+          "consumer": "Розетки кабинет бухгалтерия",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "20 м"
+          }
+        },
+        {
+          "id": "QF3",
+          "type": "УЗО",
+          "rating": "30mA 40A",
+          "consumer": "Освещение коридор",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "25 м"
+          }
+        },
+        {
+          "id": "QF4",
+          "type": "Дифавтомат",
+          "rating": "C20",
+          "consumer": "Компьютерное оборудование",
+          "powerCable": {
+            "type": "ВВГнг 3x4",
+            "length": "30 м"
+          }
+        },
+        {
+          "id": "QF5",
+          "type": "Пускатель",
+          "rating": "25А",
+          "consumer": "Система кондиционирования",
+          "powerCable": {
+            "type": "КГ 3x6",
+            "length": "40 м"
+          }
+        },
+        {
+          "id": "QF6",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Водонагреватель",
+          "powerCable": {
+            "type": "ВВГнг 3x6",
+            "length": "35 м"
+          }
+        }
+      ]
+    },
+    {
+      "name": "МРП-1",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №1",
+        "mainBreaker": {
+          "type": "ABB SACE Tmax T2",
+          "rating": "250 А"
+        }
+      },
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Линия упаковки",
+          "powerCable": {
+            "type": "NYY 4x10",
+            "length": "50 м"
+          }
+        },
+        {
+          "id": "QF2",
+          "type": "Дифавтомат",
+          "rating": "C25",
+          "consumer": "Шкаф управления",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "30 м"
+          }
+        },
+        {
+          "id": "QF3",
+          "type": "УЗО",
+          "rating": "100mA 63A",
+          "consumer": "Оборудование для упаковки",
+          "powerCable": {
+            "type": "АВБбШв 4x25",
+            "length": "45 м"
+          }
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Приводы и моторы",
+          "powerCable": {
+            "type": "КГ 4x16",
+            "length": "60 м"
+          }
+        },
+        {
+          "id": "QF5",
+          "type": "Пускатель",
+          "rating": "40А",
+          "consumer": "Система вентиляции упаковочного цеха",
+          "powerCable": {
+            "type": "NYY 4x25",
+            "length": "55 м"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ЩАО-1",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "Schneider Electric Compact NSX200F",
+          "rating": "200 А"
+        }
+      },
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Дифавтомат",
+          "rating": "C16",
+          "consumer": "Розетки склад",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "20 м"
+          }
+        },
+        {
+          "id": "QF2",
+          "type": "УЗО",
+          "rating": "30mA 40A",
+          "consumer": "Освещение склад",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "25 м"
+          }
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C10",
+          "consumer": "Охранная система",
+          "powerCable": {
+            "type": "ПВС 3x1.5",
+            "length": "10 м"
+          }
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C25",
+          "consumer": "Система видеонаблюдения",
+          "powerCable": {
+            "type": "КГ 3x4",
+            "length": "15 м"
+          }
+        }
+      ]
+    },
+    {
+      "name": "МЩО-1",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "Schneider Electric Compact NSX200F",
+          "rating": "200 А"
+        }
+      },
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Металлообрабатывающее оборудование",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "30 м"
+          }
+        },
+        {
+          "id": "QF2",
+          "type": "Пускатель",
+          "rating": "50А",
+          "consumer": "Станок токарный",
+          "powerCable": {
+            "type": "КГ 4x25",
+            "length": "35 м"
+          }
+        },
+        {
+          "id": "QF3",
+          "type": "Дифавтомат",
+          "rating": "C32",
+          "consumer": "Система вытяжки",
+          "powerCable": {
+            "type": "NYY 4x10",
+            "length": "40 м"
+          }
+        }
+      ]
+    },
+    {
+      "name": "РП-2",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "Schneider Electric Compact NSX200F",
+          "rating": "200 А"
+        }
+      },
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C16",
+          "consumer": "Освещение кабинета №101",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "20 м"
+          }
+        },
+        {
+          "id": "QF2",
+          "type": "Дифавтомат",
+          "rating": "C20",
+          "consumer": "Розетки кабинет №101",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "25 м"
+          }
+        },
+        {
+          "id": "QF3",
+          "type": "УЗО",
+          "rating": "30mA 40A",
+          "consumer": "Компьютеры административного отдела",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "30 м"
+          }
+        }
+      ]
+    },
+    {
+      "name": "РП-3",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "Schneider Electric Compact NSX200F",
+          "rating": "200 А"
+        }
+      },
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Система вентиляции складского помещения",
+          "powerCable": {
+            "type": "ВВГнг 3x6",
+            "length": "30 м"
+          }
+        },
+        {
+          "id": "QF2",
+          "type": "УЗО",
+          "rating": "30mA 63A",
+          "consumer": "Освещение складского помещения",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "25 м"
+          }
+        },
+        {
+          "id": "QF3",
+          "type": "Пускатель",
+          "rating": "40А",
+          "consumer": "Электроприводы ворот склада",
+          "powerCable": {
+            "type": "КГ 4x10",
+            "length": "40 м"
+          }
+        }
+      ]
+    },
+    {
+      "name": "МРП-2",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "Schneider Electric Compact NSX200F",
+          "rating": "200 А"
+        }
+      },
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Дифавтомат",
+          "rating": "C25",
+          "consumer": "Линия кондиционирования",
+          "powerCable": {
+            "type": "АВБбШв 4x16",
+            "length": "50 м"
+          }
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Система вентиляции",
+          "powerCable": {
+            "type": "NYY 4x10",
+            "length": "30 м"
+          }
+        },
+        {
+          "id": "QF3",
+          "type": "УЗО",
+          "rating": "30mA 40A",
+          "consumer": "Освещение помещений",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "20 м"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ЩАО-2",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "Schneider Electric Compact NSX200F",
+          "rating": "200 А"
+        }
+      },
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C10",
+          "consumer": "Охранные системы",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "15 м"
+          }
+        },
+        {
+          "id": "QF2",
+          "type": "Дифавтомат",
+          "rating": "C16",
+          "consumer": "Система видеонаблюдения",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "20 м"
+          }
+        },
+        {
+          "id": "QF3",
+          "type": "УЗО",
+          "rating": "30mA 63A",
+          "consumer": "Электроприводы дверей",
+          "powerCable": {
+            "type": "КГ 4x10",
+            "length": "35 м"
+          }
+        }
+      ]
+    },
+    {
+      "name": "МЩО-2",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "Schneider Electric Compact NSX200F",
+          "rating": "200 А"
+        }
+      },
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Станок токарный №2",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "30 м"
+          }
+        },
+        {
+          "id": "QF2",
+          "type": "УЗО",
+          "rating": "30mA 100A",
+          "consumer": "Система обогрева цеха",
+          "powerCable": {
+            "type": "КГ 4x25",
+            "length": "40 м"
+          }
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Освещение мастерской",
+          "powerCable": {
+            "type": "NYY 4x10",
+            "length": "35 м"
+          }
+        }
+      ]
+    },
+    {
+      "name": "РП-4",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "Schneider Electric Compact NSX200F",
+          "rating": "200 А"
+        }
+      },
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Дифавтомат",
+          "rating": "C16",
+          "consumer": "Лифтовое оборудование",
+          "powerCable": {
+            "type": "ВВГнг 4x6",
+            "length": "25 м"
+          }
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Освещение лифтовой шахты",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "15 м"
+          }
+        },
+        {
+          "id": "QF3",
+          "type": "УЗО",
+          "rating": "30mA 63A",
+          "consumer": "Механизм дверей лифта",
+          "powerCable": {
+            "type": "ВВГнг 3x4",
+            "length": "20 м"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "name": "Силовой шкаф типа А",
+    "model": "A-1500",
+    "totalModules": 18,
+    "cabinetCapacity": 24,
+    "components": [
+      {
+        "name": "Автоматический выключатель 100А",
+        "quantity": 2,
+        "catalogNumber": "CB1001",
+        "type": "3P",
+        "manufacturer": "Schneider Electric"
+      },
+      {
+        "name": "Контактор 220В 25А",
+        "quantity": 3,
+        "catalogNumber": "CN1002",
+        "type": "1P",
+        "manufacturer": "ABB"
+      },
+      {
+        "name": "Реле контроля фаз",
+        "quantity": 1,
+        "catalogNumber": "PC1003",
+        "type": "1P",
+        "manufacturer": "Legrand"
+      },
+      {
+        "name": "Шина подключения земли",
+        "quantity": 1,
+        "catalogNumber": "GB1004",
+        "type": "N/A",
+        "manufacturer": "WAGO"
+      },
+      {
+        "name": "Нулевая шина",
+        "quantity": 1,
+        "catalogNumber": "NB1005",
+        "type": "N/A",
+        "manufacturer": "WAGO"
+      },
+      {
+        "name": "Резервный автоматический выключатель 63А",
+        "quantity": 2,
+        "catalogNumber": "CB1006",
+        "type": "1P",
+        "manufacturer": "Eaton"
+      }
+    ],
+    "inputCable": {
+      "type": "Кабель ВВГ 3x50",
+      "crossSection": "50 мм²",
+      "catalogNumber": "IC1001",
+      "manufacturer": "Электрокабель Кольчугинский Завод"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Силовой шкаф типа В",
+    "model": "B-2000",
+    "totalModules": 22,
+    "cabinetCapacity": 24,
+    "components": [
+      {
+        "name": "Автоматический выключатель 63А",
+        "quantity": 4,
+        "catalogNumber": "CB2001",
+        "type": "3P",
+        "manufacturer": "Hager"
+      },
+      {
+        "name": "УЗО 30мА 40А",
+        "quantity": 2,
+        "catalogNumber": "RCD2002",
+        "type": "1P",
+        "manufacturer": "Siemens"
+      },
+      {
+        "name": "Таймер реле",
+        "quantity": 1,
+        "catalogNumber": "TR2003",
+        "type": "1P",
+        "manufacturer": "Eaton"
+      },
+      {
+        "name": "Шина подключения земли",
+        "quantity": 1,
+        "catalogNumber": "GB2004",
+        "type": "N/A",
+        "manufacturer": "WAGO"
+      },
+      {
+        "name": "Нулевая шина",
+        "quantity": 1,
+        "catalogNumber": "NB2005",
+        "type": "N/A",
+        "manufacturer": "WAGO"
+      },
+      {
+        "name": "Резервный дифавтомат 40А",
+        "quantity": 1,
+        "catalogNumber": "RCD2006",
+        "type": "1P",
+        "manufacturer": "Schneider Electric"
+      }
+    ],
+    "inputCable": {
+      "type": "Кабель ВВГ 3x35",
+      "crossSection": "35 мм²",
+      "catalogNumber": "IC2001",
+      "manufacturer": "Кабельный Завод Кабэкс"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Силовой шкаф типа С",
+    "model": "C-2500",
+    "totalModules": 36,
+    "cabinetCapacity": 36,
+    "components": [
+      {
+        "name": "Автоматический выключатель 32А",
+        "quantity": 6,
+        "catalogNumber": "CB3001",
+        "type": "1P",
+        "manufacturer": "Schneider Electric"
+      },
+      {
+        "name": "Реле перегрузки",
+        "quantity": 2,
+        "catalogNumber": "OL3002",
+        "type": "3P",
+        "manufacturer": "ABB"
+      },
+      {
+        "name": "Панельное реле времени",
+        "quantity": 1,
+        "catalogNumber": "TR3003",
+        "type": "1P",
+        "manufacturer": "Siemens"
+      },
+      {
+        "name": "Держатель кабеля",
+        "quantity": 8,
+        "catalogNumber": "CC3004",
+        "type": "N/A",
+        "manufacturer": "IEK"
+      },
+      {
+        "name": "Шина подключения земли",
+        "quantity": 1,
+        "catalogNumber": "GB3005",
+        "type": "N/A",
+        "manufacturer": "WAGO"
+      },
+      {
+        "name": "Нулевая шина",
+        "quantity": 1,
+        "catalogNumber": "NB3006",
+        "type": "N/A",
+        "manufacturer": "WAGO"
+      },
+      {
+        "name": "Резервный автоматический выключатель 20А",
+        "quantity": 2,
+        "catalogNumber": "CB3007",
+        "type": "1P",
+        "manufacturer": "Eaton"
+      }
+    ],
+    "inputCable": {
+      "type": "Кабель ПВС 3x16",
+      "crossSection": "16 мм²",
+      "catalogNumber": "IC3001",
+      "manufacturer": "Севкабель"
+    }
+  }
+]

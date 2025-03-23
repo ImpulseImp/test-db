@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "name": "Труба ПВХ 25 мм",
+    "quantity": 100,
+    "catalogNumber": "P20001"
+  },
+  {
+    "id": 2,
+    "name": "Угольник для труб 90° 25 мм",
+    "quantity": 80,
+    "catalogNumber": "C20002"
+  },
+  {
+    "id": 3,
+    "name": "Смеситель для кухни",
+    "quantity": 40,
+    "catalogNumber": "F20003"
+  },
+  {
+    "id": 4,
+    "name": "Шланг гибкий для душа 1.5м",
+    "quantity": 120,
+    "catalogNumber": "H20004"
+  },
+  {
+    "id": 5,
+    "name": "Клапан обратный 25 мм",
+    "quantity": 50,
+    "catalogNumber": "V20005"
+  },
+  {
+    "id": 6,
+    "name": "Фильтр для воды угольный",
+    "quantity": 30,
+    "catalogNumber": "W20006"
+  },
+  {
+    "id": 7,
+    "name": "Муфта соединительная 25 мм",
+    "quantity": 150,
+    "catalogNumber": "M20007"
+  },
+  {
+    "id": 8,
+    "name": "Сифон для раковины",
+    "quantity": 60,
+    "catalogNumber": "S20008"
+  },
+  {
+    "id": 9,
+    "name": "Резьбовой адаптер 1/2\"",
+    "quantity": 200,
+    "catalogNumber": "A20009"
+  },
+  {
+    "id": 10,
+    "name": "Смеситель для ванной комнаты",
+    "quantity": 25,
+    "catalogNumber": "F20010"
+  },
+  {
+    "id": 11,
+    "name": "Труба металлопластиковая 16 мм",
+    "quantity": 100,
+    "catalogNumber": "P20011"
+  },
+  {
+    "id": 12,
+    "name": "Крепление для труб 25 мм",
+    "quantity": 150,
+    "catalogNumber": "C20012"
+  },
+  {
+    "id": 13,
+    "name": "Редуктор давления воды",
+    "quantity": 40,
+    "catalogNumber": "R20013"
+  },
+  {
+    "id": 14,
+    "name": "Шланг для полива 20м",
+    "quantity": 30,
+    "catalogNumber": "H20014"
+  },
+  {
+    "id": 15,
+    "name": "Кран шаровой 1/2\"",
+    "quantity": 120,
+    "catalogNumber": "V20015"
+  },
+  {
+    "id": 16,
+    "name": "Коллектор для системы отопления",
+    "quantity": 25,
+    "catalogNumber": "C20016"
+  },
+  {
+    "id": 17,
+    "name": "Фильтр грубой очистки",
+    "quantity": 60,
+    "catalogNumber": "W20017"
+  },
+  {
+    "id": 18,
+    "name": "Сифон для душевого поддона",
+    "quantity": 50,
+    "catalogNumber": "S20018"
+  },
+  {
+    "id": 19,
+    "name": "Аэратор для смесителя",
+    "quantity": 200,
+    "catalogNumber": "A20019"
+  },
+  {
+    "id": 20,
+    "name": "Смеситель термостатический",
+    "quantity": 35,
+    "catalogNumber": "F20020"
+  },
+  {
+    "id": 21,
+    "name": "Труба ПВХ 32 мм",
+    "quantity": 90,
+    "catalogNumber": "P20021"
+  },
+  {
+    "id": 22,
+    "name": "Угольник для труб 45° 32 мм",
+    "quantity": 100,
+    "catalogNumber": "C20022"
+  },
+  {
+    "id": 23,
+    "name": "Смеситель для биде",
+    "quantity": 50,
+    "catalogNumber": "F20023"
+  },
+  {
+    "id": 24,
+    "name": "Кран водоразборный 3/4\"",
+    "quantity": 75,
+    "catalogNumber": "V20024"
+  },
+  {
+    "id": 25,
+    "name": "Фильтр для воды механический",
+    "quantity": 40,
+    "catalogNumber": "W20025"
+  },
+  {
+    "id": 26,
+    "name": "Муфта для соединения труб 32 мм",
+    "quantity": 120,
+    "catalogNumber": "M20026"
+  },
+  {
+    "id": 27,
+    "name": "Сифон для унитаза",
+    "quantity": 35,
+    "catalogNumber": "S20027"
+  },
+  {
+    "id": 28,
+    "name": "Шланг гибкий армированный 2м",
+    "quantity": 150,
+    "catalogNumber": "H20028"
+  },
+  {
+    "id": 29,
+    "name": "Адаптер для труб с резьбой 3/4\"",
+    "quantity": 80,
+    "catalogNumber": "A20029"
+  },
+  {
+    "id": 30,
+    "name": "Смеситель с выдвижным изливом",
+    "quantity": 25,
+    "catalogNumber": "F20030"
+  },
+  {
+    "id": 31,
+    "name": "Труба ПВХ 40 мм",
+    "quantity": 70,
+    "catalogNumber": "P20031"
+  },
+  {
+    "id": 32,
+    "name": "Муфта соединительная 40 мм",
+    "quantity": 60,
+    "catalogNumber": "M20032"
+  },
+  {
+    "id": 33,
+    "name": "Угольник для труб 40° 40 мм",
+    "quantity": 80,
+    "catalogNumber": "C20033"
+  },
+  {
+    "id": 34,
+    "name": "Кран шаровой полнопроходной 1\"",
+    "quantity": 50,
+    "catalogNumber": "V20034"
+  },
+  {
+    "id": 35,
+    "name": "Сифон для ванны с переливом",
+    "quantity": 30,
+    "catalogNumber": "S20035"
+  },
+  {
+    "id": 36,
+    "name": "Фильтр магистральный",
+    "quantity": 45,
+    "catalogNumber": "W20036"
+  },
+  {
+    "id": 37,
+    "name": "Переходник резьбовой 1/2\" на 3/4\"",
+    "quantity": 100,
+    "catalogNumber": "A20037"
+  },
+  {
+    "id": 38,
+    "name": "Гибкий шланг для смесителя 0.5м",
+    "quantity": 120,
+    "catalogNumber": "H20038"
+  },
+  {
+    "id": 39,
+    "name": "Клапан предохранительный 3 бар",
+    "quantity": 25,
+    "catalogNumber": "V20039"
+  },
+  {
+    "id": 40,
+    "name": "Смеситель для душа скрытого монтажа",
+    "quantity": 35,
+    "catalogNumber": "F20040"
+  },
+  {
+    "id": 41,
+    "name": "Труба металлопластиковая 20 мм",
+    "quantity": 75,
+    "catalogNumber": "P20041"
+  },
+  {
+    "id": 42,
+    "name": "Сифон для раковины с переливом",
+    "quantity": 50,
+    "catalogNumber": "S20042"
+  },
+  {
+    "id": 43,
+    "name": "Кран для радиаторов",
+    "quantity": 40,
+    "catalogNumber": "V20043"
+  },
+  {
+    "id": 44,
+    "name": "Фильтр тонкой очистки воды",
+    "quantity": 60,
+    "catalogNumber": "W20044"
+  },
+  {
+    "id": 45,
+    "name": "Резьбовой фитинг 3/4\"",
+    "quantity": 80,
+    "catalogNumber": "A20045"
+  },
+  {
+    "id": 46,
+    "name": "Коллектор с выходами на 4 трубы",
+    "quantity": 30,
+    "catalogNumber": "C20046"
+  },
+  {
+    "id": 47,
+    "name": "Шланг для смесителя 1.2м",
+    "quantity": 90,
+    "catalogNumber": "H20047"
+  },
+  {
+    "id": 48,
+    "name": "Клапан предохранительный 6 бар",
+    "quantity": 35,
+    "catalogNumber": "V20048"
+  },
+  {
+    "id": 49,
+    "name": "Смеситель для умывальника",
+    "quantity": 120,
+    "catalogNumber": "F20049"
+  },
+  {
+    "id": 50,
+    "name": "Труба ПВХ 50 мм",
+    "quantity": 100,
+    "catalogNumber": "P20050"
+  },
+  {
+    "id": 51,
+    "name": "Тройник для труб 25 мм",
+    "quantity": 90,
+    "catalogNumber": "T20051"
+  },
+  {
+    "id": 52,
+    "name": "Гибкая подводка для воды 50 см",
+    "quantity": 120,
+    "catalogNumber": "H20052"
+  },
+  {
+    "id": 53,
+    "name": "Смеситель однорычажный для ванны",
+    "quantity": 70,
+    "catalogNumber": "F20053"
+  },
+  {
+    "id": 54,
+    "name": "Клапан обратный 32 мм",
+    "quantity": 50,
+    "catalogNumber": "V20054"
+  },
+  {
+    "id": 55,
+    "name": "Труба ПВХ 20 мм",
+    "quantity": 100,
+    "catalogNumber": "P20055"
+  },
+  {
+    "id": 56,
+    "name": "Фильтр для очистки холодной воды",
+    "quantity": 35,
+    "catalogNumber": "W20056"
+  },
+  {
+    "id": 57,
+    "name": "Муфта разъемная для труб 40 мм",
+    "quantity": 80,
+    "catalogNumber": "M20057"
+  },
+  {
+    "id": 58,
+    "name": "Сифон для писсуара",
+    "quantity": 60,
+    "catalogNumber": "S20058"
+  },
+  {
+    "id": 59,
+    "name": "Шланг для полива 10м",
+    "quantity": 45,
+    "catalogNumber": "H20059"
+  },
+  {
+    "id": 60,
+    "name": "Кран шаровой с американкой 3/4\"",
+    "quantity": 30,
+    "catalogNumber": "V20060"
+  },
+  {
+    "id": 61,
+    "name": "Труба металлопластиковая 25 мм",
+    "quantity": 65,
+    "catalogNumber": "P20061"
+  },
+  {
+    "id": 62,
+    "name": "Смеситель сенсорный для раковины",
+    "quantity": 30,
+    "catalogNumber": "F20062"
+  },
+  {
+    "id": 63,
+    "name": "Кран шаровой разборный 1/2\"",
+    "quantity": 50,
+    "catalogNumber": "V20063"
+  },
+  {
+    "id": 64,
+    "name": "Муфта редукционная 40 мм на 25 мм",
+    "quantity": 70,
+    "catalogNumber": "M20064"
+  },
+  {
+    "id": 65,
+    "name": "Фильтр для воды смягчающий",
+    "quantity": 45,
+    "catalogNumber": "W20065"
+  },
+  {
+    "id": 66,
+    "name": "Сифон для стиральной машины",
+    "quantity": 25,
+    "catalogNumber": "S20066"
+  },
+  {
+    "id": 67,
+    "name": "Тройник для труб 32 мм",
+    "quantity": 80,
+    "catalogNumber": "T20067"
+  },
+  {
+    "id": 68,
+    "name": "Гибкий шланг для воды 60 см",
+    "quantity": 90,
+    "catalogNumber": "H20068"
+  },
+  {
+    "id": 69,
+    "name": "Клапан для сброса давления",
+    "quantity": 35,
+    "catalogNumber": "V20069"
+  },
+  {
+    "id": 70,
+    "name": "Смеситель для кухни с фильтром",
+    "quantity": 40,
+    "catalogNumber": "F20070"
+  },
+  {
+    "id": 71,
+    "name": "Коллектор с расходомерами",
+    "quantity": 20,
+    "catalogNumber": "C20071"
+  },
+  {
+    "id": 72,
+    "name": "Смеситель для ванны двухвентильный",
+    "quantity": 50,
+    "catalogNumber": "F20072"
+  },
+  {
+    "id": 73,
+    "name": "Труба гофрированная из нержавейки 16 мм",
+    "quantity": 100,
+    "catalogNumber": "P20073"
+  },
+  {
+    "id": 74,
+    "name": "Фильтр угольный сменный",
+    "quantity": 30,
+    "catalogNumber": "W20074"
+  },
+  {
+    "id": 75,
+    "name": "Клапан обратный с латунной резьбой",
+    "quantity": 60,
+    "catalogNumber": "V20075"
+  },
+  {
+    "id": 76,
+    "name": "Сифон для умывальника с выпуском",
+    "quantity": 40,
+    "catalogNumber": "S20076"
+  },
+  {
+    "id": 77,
+    "name": "Гибкий шланг для смесителя 80 см",
+    "quantity": 90,
+    "catalogNumber": "H20077"
+  },
+  {
+    "id": 78,
+    "name": "Редуктор давления с манометром",
+    "quantity": 35,
+    "catalogNumber": "R20078"
+  },
+  {
+    "id": 79,
+    "name": "Кран шаровой с внутренней резьбой 1\"",
+    "quantity": 55,
+    "catalogNumber": "V20079"
+  },
+  {
+    "id": 80,
+    "name": "Тройник латунный 3/4\"",
+    "quantity": 70,
+    "catalogNumber": "T20080"
+  },
+  {
+    "id": 81,
+    "name": "Труба металлопластиковая 32 мм",
+    "quantity": 45,
+    "catalogNumber": "P20081"
+  },
+  {
+    "id": 82,
+    "name": "Кран для смесителя с фильтром",
+    "quantity": 30,
+    "catalogNumber": "F20082"
+  },
+  {
+    "id": 83,
+    "name": "Фильтр для воды мембранный",
+    "quantity": 25,
+    "catalogNumber": "W20083"
+  },
+  {
+    "id": 84,
+    "name": "Гибкая подводка для унитаза 40 см",
+    "quantity": 90,
+    "catalogNumber": "H20084"
+  },
+  {
+    "id": 85,
+    "name": "Сифон для раковины с защелкой",
+    "quantity": 50,
+    "catalogNumber": "S20085"
+  },
+  {
+    "id": 86,
+    "name": "Клапан обратный 3/4\" латунный",
+    "quantity": 70,
+    "catalogNumber": "V20086"
+  },
+  {
+    "id": 87,
+    "name": "Муфта для соединения труб 50 мм",
+    "quantity": 40,
+    "catalogNumber": "M20087"
+  },
+  {
+    "id": 88,
+    "name": "Редуктор давления для системы водоснабжения",
+    "quantity": 20,
+    "catalogNumber": "R20088"
+  },
+  {
+    "id": 89,
+    "name": "Тройник латунный 1\"",
+    "quantity": 35,
+    "catalogNumber": "T20089"
+  },
+  {
+    "id": 90,
+    "name": "Коллектор отопления с термометром",
+    "quantity": 55,
+    "catalogNumber": "C20090"
+  },
+  {
+    "id": 91,
+    "name": "Труба ПВХ гофрированная 25 мм",
+    "quantity": 65,
+    "catalogNumber": "P20091"
+  },
+  {
+    "id": 92,
+    "name": "Смеситель каскадный для ванной",
+    "quantity": 30,
+    "catalogNumber": "F20092"
+  },
+  {
+    "id": 93,
+    "name": "Кран шаровой с внутренней и наружной резьбой 3/4\"",
+    "quantity": 40,
+    "catalogNumber": "V20093"
+  },
+  {
+    "id": 94,
+    "name": "Фильтр для воды обратноосмотический",
+    "quantity": 25,
+    "catalogNumber": "W20094"
+  },
+  {
+    "id": 95,
+    "name": "Сифон для душевой кабины",
+    "quantity": 50,
+    "catalogNumber": "S20095"
+  },
+  {
+    "id": 96,
+    "name": "Муфта для труб 32 мм на 25 мм",
+    "quantity": 55,
+    "catalogNumber": "M20096"
+  },
+  {
+    "id": 97,
+    "name": "Гибкая подводка для бойлера 1м",
+    "quantity": 45,
+    "catalogNumber": "H20097"
+  },
+  {
+    "id": 98,
+    "name": "Клапан обратный с фильтром 1\"",
+    "quantity": 35,
+    "catalogNumber": "V20098"
+  },
+  {
+    "id": 99,
+    "name": "Редуктор давления с соединением для манометра",
+    "quantity": 20,
+    "catalogNumber": "R20099"
+  },
+  {
+    "id": 100,
+    "name": "Коллектор распределительный с запорными клапанами",
+    "quantity": 60,
+    "catalogNumber": "C20100"
+  }
+]

@@ -1,0 +1,1584 @@
+{
+  "panels": [
+    {
+      "name": "РП-1",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №1",
+        "mainBreaker": {
+          "type": "QS",
+          "rating": "250 А",
+          "catalogNumber": "QS1001",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        }
+      },
+      "startingPower": "50 кВт",
+      "calculatedPower": "45 кВт",
+      "calculatedCurrent": "90 А",
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C16",
+          "consumer": "Розетки кабинет №201",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "15 м",
+            "catalogNumber": "CBL1001",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "CB1001",
+          "manufacturer": "Schneider Electric",
+          "poles": "1P"
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C16",
+          "consumer": "Розетки кабинет бухгалтерия",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "20 м",
+            "catalogNumber": "CBL1002",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB1002",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QD1",
+          "type": "УЗО",
+          "rating": "30mA 40A",
+          "consumer": "Освещение коридор",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "25 м",
+            "catalogNumber": "CBL1003",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "RC1001",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QF3",
+          "type": "Дифавтомат",
+          "rating": "C20",
+          "consumer": "Компьютерное оборудование",
+          "powerCable": {
+            "type": "ВВГнг 3x4",
+            "length": "30 м",
+            "catalogNumber": "CBL1004",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "DF1001",
+          "manufacturer": "Eaton",
+          "poles": "1P"
+        },
+        {
+          "id": "QD2",
+          "type": "УЗО",
+          "rating": "100mA 63A",
+          "consumer": "Резервное освещение",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "25 м",
+            "catalogNumber": "CBL1006",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "RC1002",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Водонагреватель",
+          "powerCable": {
+            "type": "ВВГнг 3x6",
+            "length": "35 м",
+            "catalogNumber": "CBL1007",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB1003",
+          "manufacturer": "Schneider Electric",
+          "poles": "1P"
+        },
+        {
+          "id": "QF5",
+          "type": "Автоматический выключатель",
+          "rating": "C10",
+          "consumer": "Освещение склада",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "12 м",
+            "catalogNumber": "CBL1008",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "CB1004",
+          "manufacturer": "Eaton",
+          "poles": "1P"
+        },
+        {
+          "id": "QD3",
+          "type": "УЗО",
+          "rating": "300mA 40A",
+          "consumer": "Линия кондиционирования",
+          "powerCable": {
+            "type": "ВВГнг 3x4",
+            "length": "15 м",
+            "catalogNumber": "CBL1009",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "RC1003",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR1",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Резервная линия 1",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "10 м",
+            "catalogNumber": "CBL1010",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB1005",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR2",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Резервная линия 2",
+          "powerCable": {
+            "type": "NYM 3x6",
+            "length": "20 м",
+            "catalogNumber": "CBL1011",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "CB1006",
+          "manufacturer": "Siemens",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR3",
+          "type": "Резервный дифавтомат",
+          "rating": "C63",
+          "consumer": "Резервная линия 3",
+          "powerCable": {
+            "type": "ВВГнг 4x10",
+            "length": "25 м",
+            "catalogNumber": "CBL1012",
+            "manufacturer": "Legrand"
+          },
+          "catalogNumber": "DF1002",
+          "manufacturer": "Schneider Electric",
+          "poles": "1P"
+        }
+      ],
+      "totalModules": 30,
+      "cabinetCapacity": 36
+    },
+    {
+      "name": "МРП-1",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №1",
+        "mainBreaker": {
+          "type": "QS",
+          "rating": "250 А",
+          "catalogNumber": "QS2001",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        }
+      },
+      "startingPower": "60 кВт",
+      "calculatedPower": "55 кВт",
+      "calculatedCurrent": "110 А",
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Линия упаковки",
+          "powerCable": {
+            "type": "NYY 4x10",
+            "length": "50 м",
+            "catalogNumber": "CBL2001",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB2001",
+          "manufacturer": "Siemens",
+          "poles": "3P"
+        },
+        {
+          "id": "QF2",
+          "type": "Дифавтомат",
+          "rating": "C25",
+          "consumer": "Шкаф управления",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "30 м",
+            "catalogNumber": "CBL2002",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "DF2001",
+          "manufacturer": "Hager",
+          "poles": "3P"
+        },
+        {
+          "id": "QD1",
+          "type": "УЗО",
+          "rating": "100mA 63A",
+          "consumer": "Оборудование для упаковки",
+          "powerCable": {
+            "type": "АВБбШв 4x25",
+            "length": "45 м",
+            "catalogNumber": "CBL2003",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "RC2001",
+          "manufacturer": "Eaton",
+          "poles": "3P"
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Приводы и моторы",
+          "powerCable": {
+            "type": "КГ 4x16",
+            "length": "60 м",
+            "catalogNumber": "CBL2004",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "CB2002",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Освещение склада",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "15 м",
+            "catalogNumber": "CBL2005",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB2003",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QD2",
+          "type": "УЗО",
+          "rating": "300mA 40A",
+          "consumer": "Система вентиляции",
+          "powerCable": {
+            "type": "ВВГнг 3x4",
+            "length": "20 м",
+            "catalogNumber": "CBL2006",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "RC2002",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR1",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Резервная линия 1",
+          "powerCable": {
+            "type": "NYM 3x4",
+            "length": "25 м",
+            "catalogNumber": "CBL2007",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "CB2004",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR2",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Резервная линия 2",
+          "powerCable": {
+            "type": "ВВГнг 3x6",
+            "length": "30 м",
+            "catalogNumber": "CBL2008",
+            "manufacturer": "Siemens"
+          },
+          "catalogNumber": "CB2005",
+          "manufacturer": "Schneider Electric",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR3",
+          "type": "Резервный дифавтомат",
+          "rating": "C63",
+          "consumer": "Резервная линия 3",
+          "powerCable": {
+            "type": "АВБбШв 4x10",
+            "length": "40 м",
+            "catalogNumber": "CBL2009",
+            "manufacturer": "Legrand"
+          },
+          "catalogNumber": "DF2002",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        }
+      ],
+      "totalModules": 33,
+      "cabinetCapacity": 36
+    },
+    {
+      "name": "ЩАО-1",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "QS",
+          "rating": "200 А",
+          "catalogNumber": "QS3001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      },
+      "startingPower": "40 кВт",
+      "calculatedPower": "35 кВт",
+      "calculatedCurrent": "70 А",
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C10",
+          "consumer": "Охранные системы",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "15 м",
+            "catalogNumber": "CBL3001",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "CB3001",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        },
+        {
+          "id": "QD1",
+          "type": "УЗО",
+          "rating": "30mA 40A",
+          "consumer": "Освещение склад",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "20 м",
+            "catalogNumber": "CBL3002",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "RC3001",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C16",
+          "consumer": "Розетки склад",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "25 м",
+            "catalogNumber": "CBL3003",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB3002",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Система вентиляции",
+          "powerCable": {
+            "type": "КГ 4x10",
+            "length": "40 м",
+            "catalogNumber": "CBL3004",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "CB3003",
+          "manufacturer": "Eaton",
+          "poles": "3P"
+        },
+        {
+          "id": "QD2",
+          "type": "УЗО",
+          "rating": "100mA 63A",
+          "consumer": "Система пожаротушения",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "30 м",
+            "catalogNumber": "CBL3005",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "RC3002",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C25",
+          "consumer": "Шкаф управления",
+          "powerCable": {
+            "type": "ВВГнг 4x6",
+            "length": "35 м",
+            "catalogNumber": "CBL3006",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB3004",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR1",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Резервная линия 1",
+          "powerCable": {
+            "type": "ВВГнг 3x4",
+            "length": "20 м",
+            "catalogNumber": "CBL3007",
+            "manufacturer": "Legrand"
+          },
+          "catalogNumber": "CB3005",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR2",
+          "type": "Резервный дифавтомат",
+          "rating": "C40",
+          "consumer": "Резервная линия 2",
+          "powerCable": {
+            "type": "КГ 4x10",
+            "length": "25 м",
+            "catalogNumber": "CBL3008",
+            "manufacturer": "Siemens"
+          },
+          "catalogNumber": "DF3001",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR3",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Резервное освещение",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "15 м",
+            "catalogNumber": "CBL3009",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB3006",
+          "manufacturer": "Schneider Electric",
+          "poles": "1P"
+        }
+      ],
+      "totalModules": 30,
+      "cabinetCapacity": 36
+    },
+    {
+      "name": "МЩО-1",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "QS",
+          "rating": "200 А",
+          "catalogNumber": "QS4001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      },
+      "startingPower": "70 кВт",
+      "calculatedPower": "65 кВт",
+      "calculatedCurrent": "130 А",
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Металлообрабатывающее оборудование",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "30 м",
+            "catalogNumber": "CBL4001",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB4001",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QD1",
+          "type": "УЗО",
+          "rating": "300mA 63A",
+          "consumer": "Шкаф управления",
+          "powerCable": {
+            "type": "ВВГнг 4x10",
+            "length": "35 м",
+            "catalogNumber": "CBL4002",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "RC4001",
+          "manufacturer": "Legrand",
+          "poles": "3P"
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Система вентиляции",
+          "powerCable": {
+            "type": "КГ 4x10",
+            "length": "25 м",
+            "catalogNumber": "CBL4003",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "CB4002",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        },
+        {
+          "id": "QD2",
+          "type": "УЗО",
+          "rating": "100mA 40A",
+          "consumer": "Освещение",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "20 м",
+            "catalogNumber": "CBL4004",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "RC4002",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Система видеонаблюдения",
+          "powerCable": {
+            "type": "ВВГнг 3x6",
+            "length": "30 м",
+            "catalogNumber": "CBL4005",
+            "manufacturer": "ABB"
+          },
+          "catalogNumber": "CB4003",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C10",
+          "consumer": "Розетки",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "12 м",
+            "catalogNumber": "CBL4006",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB4004",
+          "manufacturer": "Siemens",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR1",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Резервная линия 1",
+          "powerCable": {
+            "type": "NYY 4x10",
+            "length": "25 м",
+            "catalogNumber": "CBL4007",
+            "manufacturer": "Legrand"
+          },
+          "catalogNumber": "CB4005",
+          "manufacturer": "Eaton",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR2",
+          "type": "Резервный дифавтомат",
+          "rating": "C63",
+          "consumer": "Резервная линия 2",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "40 м",
+            "catalogNumber": "CBL4008",
+            "manufacturer": "Hager"
+          },
+          "catalogNumber": "DF4001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR3",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C16",
+          "consumer": "Резервное освещение",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "15 м",
+            "catalogNumber": "CBL4009",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB4006",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        }
+      ],
+      "totalModules": 36,
+      "cabinetCapacity": 36
+    },
+    {
+      "name": "РП-2",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "QS",
+          "rating": "200 А",
+          "catalogNumber": "QS5001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      },
+      "startingPower": "45 кВт",
+      "calculatedPower": "40 кВт",
+      "calculatedCurrent": "80 А",
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C16",
+          "consumer": "Освещение кабинета №101",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "20 м",
+            "catalogNumber": "CBL5001",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "CB5001",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Розетки кабинет №101",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "25 м",
+            "catalogNumber": "CBL5002",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB5002",
+          "manufacturer": "Schneider Electric",
+          "poles": "1P"
+        },
+        {
+          "id": "QD1",
+          "type": "УЗО",
+          "rating": "30mA 40A",
+          "consumer": "Компьютеры административного отдела",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "30 м",
+            "catalogNumber": "CBL5003",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "RC5001",
+          "manufacturer": "Eaton",
+          "poles": "1P"
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Система видеонаблюдения",
+          "powerCable": {
+            "type": "КГ 3x4",
+            "length": "15 м",
+            "catalogNumber": "CBL5004",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB5003",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        },
+        {
+          "id": "QD2",
+          "type": "УЗО",
+          "rating": "300mA 63A",
+          "consumer": "Линия кондиционирования",
+          "powerCable": {
+            "type": "NYM 3x4",
+            "length": "25 м",
+            "catalogNumber": "CBL5005",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "RC5002",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Силовая линия насосной",
+          "powerCable": {
+            "type": "ВВГнг 4x10",
+            "length": "30 м",
+            "catalogNumber": "CBL5006",
+            "manufacturer": "Schneider Electric"
+          },
+          "catalogNumber": "CB5004",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR1",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Резервная линия 1",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "10 м",
+            "catalogNumber": "CBL5007",
+            "manufacturer": "Hager"
+          },
+          "catalogNumber": "CB5005",
+          "manufacturer": "Eaton",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR2",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Резервная линия 2",
+          "powerCable": {
+            "type": "ПВС 3x4",
+            "length": "15 м",
+            "catalogNumber": "CBL5008",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB5006",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR3",
+          "type": "Резервный дифавтомат",
+          "rating": "C63",
+          "consumer": "Резервная линия 3",
+          "powerCable": {
+            "type": "ВВГнг 4x10",
+            "length": "20 м",
+            "catalogNumber": "CBL5009",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "DF5001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      ],
+      "totalModules": 27,
+      "cabinetCapacity": 36
+    },
+    {
+      "name": "РП-3",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "QS",
+          "rating": "200 А",
+          "catalogNumber": "QS6001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      },
+      "startingPower": "50 кВт",
+      "calculatedPower": "46 кВт",
+      "calculatedCurrent": "92 А",
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Система вентиляции складского помещения",
+          "powerCable": {
+            "type": "ВВГнг 3x6",
+            "length": "30 м",
+            "catalogNumber": "CBL6001",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB6001",
+          "manufacturer": "Schneider Electric",
+          "poles": "1P"
+        },
+        {
+          "id": "QD1",
+          "type": "УЗО",
+          "rating": "30mA 63A",
+          "consumer": "Освещение складского помещения",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "25 м",
+            "catalogNumber": "CBL6002",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "RC6001",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Электроприводы ворот склада",
+          "powerCable": {
+            "type": "КГ 4x10",
+            "length": "40 м",
+            "catalogNumber": "CBL6003",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB6002",
+          "manufacturer": "Eaton",
+          "poles": "3P"
+        },
+        {
+          "id": "QD2",
+          "type": "УЗО",
+          "rating": "100mA 40A",
+          "consumer": "Розетки склад",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "20 м",
+            "catalogNumber": "CBL6004",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "RC6002",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Силовая линия для компрессора",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "35 м",
+            "catalogNumber": "CBL6005",
+            "manufacturer": "Schneider Electric"
+          },
+          "catalogNumber": "CB6003",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C25",
+          "consumer": "Система освещения",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "15 м",
+            "catalogNumber": "CBL6006",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "CB6004",
+          "manufacturer": "Eaton",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR1",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Резервная линия 1",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "20 м",
+            "catalogNumber": "CBL6007",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB6005",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR2",
+          "type": "Резервный дифавтомат",
+          "rating": "C32",
+          "consumer": "Резервная линия 2",
+          "powerCable": {
+            "type": "КГ 4x10",
+            "length": "25 м",
+            "catalogNumber": "CBL6008",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "DF6001",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR3",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C16",
+          "consumer": "Резервное освещение",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "15 м",
+            "catalogNumber": "CBL6009",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "CB6006",
+          "manufacturer": "Schneider Electric",
+          "poles": "1P"
+        }
+      ],
+      "totalModules": 30,
+      "cabinetCapacity": 36
+    },
+    {
+      "name": "МРП-2",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "QS",
+          "rating": "200 А",
+          "catalogNumber": "QS7001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      },
+      "startingPower": "60 кВт",
+      "calculatedPower": "55 кВт",
+      "calculatedCurrent": "110 А",
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Дифавтомат",
+          "rating": "C25",
+          "consumer": "Линия кондиционирования",
+          "powerCable": {
+            "type": "АВБбШв 4x16",
+            "length": "50 м",
+            "catalogNumber": "CBL7001",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "DF7001",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QD1",
+          "type": "УЗО",
+          "rating": "30mA 40A",
+          "consumer": "Освещение помещений",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "20 м",
+            "catalogNumber": "CBL7002",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "RC7001",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Система вентиляции",
+          "powerCable": {
+            "type": "NYY 4x10",
+            "length": "30 м",
+            "catalogNumber": "CBL7003",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "CB7001",
+          "manufacturer": "Eaton",
+          "poles": "3P"
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Система водоснабжения",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "35 м",
+            "catalogNumber": "CBL7004",
+            "manufacturer": "ABB"
+          },
+          "catalogNumber": "CB7002",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        },
+        {
+          "id": "QD2",
+          "type": "УЗО",
+          "rating": "100mA 63A",
+          "consumer": "Розетки технических помещений",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "25 м",
+            "catalogNumber": "CBL7005",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "RC7002",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C25",
+          "consumer": "Линия освещения цеха",
+          "powerCable": {
+            "type": "ВВГнг 3x4",
+            "length": "20 м",
+            "catalogNumber": "CBL7006",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB7003",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR1",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Резервная линия 1",
+          "powerCable": {
+            "type": "NYM 4x10",
+            "length": "20 м",
+            "catalogNumber": "CBL7007",
+            "manufacturer": "Schneider Electric"
+          },
+          "catalogNumber": "CB7004",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR2",
+          "type": "Резервный дифавтомат",
+          "rating": "C40",
+          "consumer": "Резервная линия 2",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "25 м",
+            "catalogNumber": "CBL7008",
+            "manufacturer": "Legrand"
+          },
+          "catalogNumber": "DF7002",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR3",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Резервное освещение",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "15 м",
+            "catalogNumber": "CBL7009",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "CB7005",
+          "manufacturer": "Eaton",
+          "poles": "1P"
+        }
+      ],
+      "totalModules": 33,
+      "cabinetCapacity": 36
+    },
+    {
+      "name": "ЩАО-2",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "QS",
+          "rating": "200 А",
+          "catalogNumber": "QS8001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      },
+      "startingPower": "55 кВт",
+      "calculatedPower": "50 кВт",
+      "calculatedCurrent": "100 А",
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Линия станков токарной обработки",
+          "powerCable": {
+            "type": "ВВГнг 4x10",
+            "length": "30 м",
+            "catalogNumber": "CBL8001",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB8001",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QD1",
+          "type": "УЗО",
+          "rating": "30mA 63A",
+          "consumer": "Система вентиляции",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "25 м",
+            "catalogNumber": "CBL8002",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "RC8001",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Система отопления",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "35 м",
+            "catalogNumber": "CBL8003",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "CB8002",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Линия освещения мастерской",
+          "powerCable": {
+            "type": "ПВС 3x4",
+            "length": "20 м",
+            "catalogNumber": "CBL8004",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB8003",
+          "manufacturer": "Eaton",
+          "poles": "1P"
+        },
+        {
+          "id": "QD2",
+          "type": "УЗО",
+          "rating": "100mA 40A",
+          "consumer": "Розетки технического помещения",
+          "powerCable": {
+            "type": "ВВГнг 3x2.5",
+            "length": "15 м",
+            "catalogNumber": "CBL8005",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "RC8002",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C10",
+          "consumer": "Компьютеры офиса",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "10 м",
+            "catalogNumber": "CBL8006",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "CB8004",
+          "manufacturer": "ABB",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR1",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Резервная линия 1",
+          "powerCable": {
+            "type": "ВВГнг 3x6",
+            "length": "25 м",
+            "catalogNumber": "CBL8007",
+            "manufacturer": "Schneider Electric"
+          },
+          "catalogNumber": "CB8005",
+          "manufacturer": "Eaton",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR2",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Резервная линия 2",
+          "powerCable": {
+            "type": "КГ 4x10",
+            "length": "20 м",
+            "catalogNumber": "CBL8008",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB8006",
+          "manufacturer": "Legrand",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR3",
+          "type": "Резервный дифавтомат",
+          "rating": "C63",
+          "consumer": "Резервная линия 3",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "30 м",
+            "catalogNumber": "CBL8009",
+            "manufacturer": "ABB"
+          },
+          "catalogNumber": "DF8001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      ],
+      "totalModules": 33,
+      "cabinetCapacity": 36
+    },
+    {
+      "name": "МЩО-2",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "QS",
+          "rating": "200 А",
+          "catalogNumber": "QS9001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      },
+      "startingPower": "65 кВт",
+      "calculatedPower": "60 кВт",
+      "calculatedCurrent": "120 А",
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Оборудование для сварки",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "30 м",
+            "catalogNumber": "CBL9001",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB9001",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QD1",
+          "type": "УЗО",
+          "rating": "300mA 63A",
+          "consumer": "Шкаф управления",
+          "powerCable": {
+            "type": "ПВС 3x4",
+            "length": "25 м",
+            "catalogNumber": "CBL9002",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "RC9001",
+          "manufacturer": "Legrand",
+          "poles": "3P"
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Система вентиляции склада",
+          "powerCable": {
+            "type": "ВВГнг 4x10",
+            "length": "35 м",
+            "catalogNumber": "CBL9003",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "CB9002",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        },
+        {
+          "id": "QD2",
+          "type": "УЗО",
+          "rating": "100mA 40A",
+          "consumer": "Освещение мастерской",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "20 м",
+            "catalogNumber": "CBL9004",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "RC9002",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C25",
+          "consumer": "Компьютеры инженерного отдела",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "15 м",
+            "catalogNumber": "CBL9005",
+            "manufacturer": "ABB"
+          },
+          "catalogNumber": "CB9003",
+          "manufacturer": "Schneider Electric",
+          "poles": "1P"
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C10",
+          "consumer": "Освещение технического помещения",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "12 м",
+            "catalogNumber": "CBL9006",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "CB9004",
+          "manufacturer": "Eaton",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR1",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Резервная линия 1",
+          "powerCable": {
+            "type": "ВВГнг 4x10",
+            "length": "25 м",
+            "catalogNumber": "CBL9007",
+            "manufacturer": "Schneider Electric"
+          },
+          "catalogNumber": "CB9005",
+          "manufacturer": "Legrand",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR2",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Резервная линия 2",
+          "powerCable": {
+            "type": "КГ 4x16",
+            "length": "30 м",
+            "catalogNumber": "CBL9008",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "CB9006",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR3",
+          "type": "Резервный дифавтомат",
+          "rating": "C63",
+          "consumer": "Резервная линия 3",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "30 м",
+            "catalogNumber": "CBL9009",
+            "manufacturer": "Legrand"
+          },
+          "catalogNumber": "DF9001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      ],
+      "totalModules": 33,
+      "cabinetCapacity": 36
+    },
+    {
+      "name": "РП-4",
+      "connectedFrom": {
+        "source": "Электрощитовая, Ввод №2",
+        "mainBreaker": {
+          "type": "QS",
+          "rating": "200 А",
+          "catalogNumber": "QS10001",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        }
+      },
+      "startingPower": "70 кВт",
+      "calculatedPower": "65 кВт",
+      "calculatedCurrent": "130 А",
+      "connectedDevices": [
+        {
+          "id": "QF1",
+          "type": "Автоматический выключатель",
+          "rating": "C16",
+          "consumer": "Лифтовое оборудование",
+          "powerCable": {
+            "type": "ВВГнг 4x6",
+            "length": "25 м",
+            "catalogNumber": "CBL10001",
+            "manufacturer": "Сарансккабель"
+          },
+          "catalogNumber": "CB10001",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QD1",
+          "type": "УЗО",
+          "rating": "30mA 63A",
+          "consumer": "Освещение лифтовой шахты",
+          "powerCable": {
+            "type": "NYM 3x2.5",
+            "length": "15 м",
+            "catalogNumber": "CBL10002",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "RC10001",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QF2",
+          "type": "Автоматический выключатель",
+          "rating": "C20",
+          "consumer": "Механизм дверей лифта",
+          "powerCable": {
+            "type": "ВВГнг 3x4",
+            "length": "20 м",
+            "catalogNumber": "CBL10003",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB10002",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QD2",
+          "type": "УЗО",
+          "rating": "100mA 40A",
+          "consumer": "Розетки лифтовой",
+          "powerCable": {
+            "type": "ПВС 3x2.5",
+            "length": "25 м",
+            "catalogNumber": "CBL10004",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "RC10002",
+          "manufacturer": "Legrand",
+          "poles": "1P"
+        },
+        {
+          "id": "QF3",
+          "type": "Автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Резервный насос",
+          "powerCable": {
+            "type": "КГ 4x10",
+            "length": "30 м",
+            "catalogNumber": "CBL10005",
+            "manufacturer": "Севкабель"
+          },
+          "catalogNumber": "CB10003",
+          "manufacturer": "ABB",
+          "poles": "3P"
+        },
+        {
+          "id": "QF4",
+          "type": "Автоматический выключатель",
+          "rating": "C25",
+          "consumer": "Система освещения коридоров",
+          "powerCable": {
+            "type": "NYM 3x1.5",
+            "length": "20 м",
+            "catalogNumber": "CBL10006",
+            "manufacturer": "Москабель"
+          },
+          "catalogNumber": "CB10004",
+          "manufacturer": "Hager",
+          "poles": "1P"
+        },
+        {
+          "id": "QFR1",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C32",
+          "consumer": "Резервная линия 1",
+          "powerCable": {
+            "type": "ВВГнг 4x10",
+            "length": "25 м",
+            "catalogNumber": "CBL10007",
+            "manufacturer": "ABB"
+          },
+          "catalogNumber": "CB10005",
+          "manufacturer": "Schneider Electric",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR2",
+          "type": "Резервный автоматический выключатель",
+          "rating": "C40",
+          "consumer": "Резервная линия 2",
+          "powerCable": {
+            "type": "КГ 4x16",
+            "length": "30 м",
+            "catalogNumber": "CBL10008",
+            "manufacturer": "Электрокабель Кольчугинский Завод"
+          },
+          "catalogNumber": "CB10006",
+          "manufacturer": "Legrand",
+          "poles": "3P"
+        },
+        {
+          "id": "QFR3",
+          "type": "Резервный дифавтомат",
+          "rating": "C63",
+          "consumer": "Резервное освещение",
+          "powerCable": {
+            "type": "ВВГнг 4x16",
+            "length": "30 м",
+            "catalogNumber": "CBL10009",
+            "manufacturer": "ABB"
+          },
+          "catalogNumber": "DF10001",
+          "manufacturer": "Hager",
+          "poles": "3P"
+        }
+      ],
+      "totalModules": 33,
+      "cabinetCapacity": 36
+    }
+  ]
+}

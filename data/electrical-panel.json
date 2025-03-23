@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Силовой шкаф типа А",
+    "components": [
+      { "name": "Автоматический выключатель 100А", "quantity": 2 },
+      { "name": "Контактор 220В 25А", "quantity": 3 },
+      { "name": "Реле контроля фаз", "quantity": 1 },
+      { "name": "Шина заземления 10 точек", "quantity": 1 }
+    ],
+    "inputCable": { "type": "Кабель ВВГ 3x50", "crossSection": "50 мм²" }
+  },
+  {
+    "id": 2,
+    "name": "Силовой шкаф типа В",
+    "components": [
+      { "name": "Автоматический выключатель 63А", "quantity": 4 },
+      { "name": "УЗО 30мА 40А", "quantity": 2 },
+      { "name": "Таймер реле", "quantity": 1 },
+      { "name": "Шина нейтрали 10 точек", "quantity": 1 }
+    ],
+    "inputCable": { "type": "Кабель ВВГ 3x35", "crossSection": "35 мм²" }
+  },
+  {
+    "id": 3,
+    "name": "Силовой шкаф типа С",
+    "components": [
+      { "name": "Автоматический выключатель 32А", "quantity": 6 },
+      { "name": "Реле перегрузки", "quantity": 2 },
+      { "name": "Панельное реле времени", "quantity": 1 },
+      { "name": "Держатель кабеля", "quantity": 8 }
+    ],
+    "inputCable": { "type": "Кабель ПВС 3x16", "crossSection": "16 мм²" }
+  },
+  {
+    "id": 4,
+    "name": "Силовой шкаф типа D",
+    "components": [
+      { "name": "Автоматический выключатель 16А", "quantity": 10 },
+      { "name": "Контактор 24В 16А", "quantity": 5 },
+      { "name": "Светодиодная индикация", "quantity": 4 },
+      { "name": "Панель подключения", "quantity": 2 }
+    ],
+    "inputCable": { "type": "Кабель ВВГ 3x10", "crossSection": "10 мм²" }
+  },
+  {
+    "id": 5,
+    "name": "Силовой шкаф типа Е",
+    "components": [
+      { "name": "Рубильник 3-х полюсный", "quantity": 1 },
+      { "name": "Автоматический выключатель 50А", "quantity": 3 },
+      { "name": "Реле контроля напряжения", "quantity": 1 },
+      { "name": "Кабельный ввод с уплотнением", "quantity": 2 }
+    ],
+    "inputCable": { "type": "Кабель АВВГ 3x25", "crossSection": "25 мм²" }
+  },
+  {
+    "id": 6,
+    "name": "Силовой шкаф типа F",
+    "components": [
+      { "name": "Устройство плавного пуска", "quantity": 1 },
+      { "name": "Контактор реверсивный", "quantity": 2 },
+      { "name": "Шина подключения нуля", "quantity": 1 },
+      { "name": "Датчик температуры шкафа", "quantity": 1 }
+    ],
+    "inputCable": { "type": "Кабель НЮМ 4x25", "crossSection": "25 мм²" }
+  },
+  {
+    "id": 7,
+    "name": "Силовой шкаф типа G",
+    "components": [
+      { "name": "Реле времени программируемое", "quantity": 1 },
+      { "name": "Плавкий предохранитель 10А", "quantity": 5 },
+      { "name": "Шина PEN", "quantity": 1 },
+      { "name": "Уплотнение для кабельного ввода", "quantity": 3 }
+    ],
+    "inputCable": { "type": "Кабель NYY 3x6", "crossSection": "6 мм²" }
+  },
+  {
+    "id": 8,
+    "name": "Силовой шкаф типа H",
+    "components": [
+      { "name": "Автоматический выключатель 250А", "quantity": 2 },
+      { "name": "Трансформатор тока", "quantity": 3 },
+      { "name": "Амперметр", "quantity": 1 },
+      { "name": "Шина подключения земли", "quantity": 2 }
+    ],
+    "inputCable": { "type": "Кабель АПВ 4x95", "crossSection": "95 мм²" }
+  },
+  {
+    "id": 9,
+    "name": "Силовой шкаф типа I",
+    "components": [
+      { "name": "Выключатель нагрузки 63А", "quantity": 4 },
+      { "name": "Реле контроля частоты", "quantity": 1 },
+      { "name": "Панель измерительных приборов", "quantity": 1 },
+      { "name": "Крепеж для проводов", "quantity": 10 }
+    ],
+    "inputCable": { "type": "Кабель ВВГнг 4x16", "crossSection": "16 мм²" }
+  },
+  {
+    "id": 10,
+    "name": "Силовой шкаф типа J",
+    "components": [
+      { "name": "Модульное УЗО 300мА", "quantity": 1 },
+      { "name": "Автоматический выключатель 125А", "quantity": 3 },
+      { "name": "Таймер включения/выключения", "quantity": 2 },
+      { "name": "Панель распределительная", "quantity": 1 }
+    ],
+    "inputCable": { "type": "Кабель NYM 5x35", "crossSection": "35 мм²" }
+  }
+]

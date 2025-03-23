@@ -1,0 +1,2404 @@
+{
+  "levelingPlatforms": [
+    {
+      "id": 1,
+      "name": "Уравнительная платформа №1",
+      "manufacturer": "HydroTech",
+      "hydraulicStation": {
+        "name": "HydroLift S100",
+        "type": "Электрогидравлическая",
+        "power": "5.5 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Сетчатый фильтр высокого давления",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Датчик перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "1500 мм",
+          "diameter": "100 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "800 мм",
+          "diameter": "80 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 6-1SN",
+          "length": "1500 мм",
+          "fittingType": "DKOS",
+          "thread": "M14x1.5",
+          "angle": "0/0",
+          "maxPressure": "320 бар"
+        },
+        {
+          "type": "РВД 8-2SN",
+          "length": "2000 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "0/90",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "10 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Пульт дистанционного управления",
+        "emergencyStop": "Механический аварийный выключатель"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Уравнительная платформа №2",
+      "manufacturer": "LiftPro",
+      "hydraulicStation": {
+        "name": "ProLift H200",
+        "type": "Электрогидравлическая",
+        "power": "7.5 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления",
+          "returnFilter": "Сетчатый фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан перегрузки давления",
+          "temperature": "Датчик температуры масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Плунжерные",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматизированный контроллер с сенсорным экраном",
+        "emergencyStop": "Кнопка аварийного отключения"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Уравнительная платформа №3",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "ForceLift F300",
+        "type": "Электрогидравлическая",
+        "power": "6.5 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Фильтр с тонкой очисткой",
+          "returnFilter": "Обратный фильтр картриджного типа"
+        },
+        "protection": {
+          "overload": "Сбросной клапан высокого давления",
+          "temperature": "Сигнализатор высокой температуры"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "1800 мм",
+          "diameter": "110 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "700 мм",
+          "diameter": "75 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-1SN",
+          "length": "1800 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "0/0",
+          "maxPressure": "320 бар"
+        },
+        {
+          "type": "РВД 6-2SN",
+          "length": "1200 мм",
+          "fittingType": "JIC",
+          "thread": "M14x1.5",
+          "angle": "0/45",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "12 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Модуль программируемого управления",
+        "emergencyStop": "Электронный аварийный выключатель"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Уравнительная платформа №4",
+      "manufacturer": "HydroLift",
+      "hydraulicStation": {
+        "name": "LiftMaster L400",
+        "type": "Электрогидравлическая",
+        "power": "6.0 кВт",
+        "hydraulicOil": "HLP 32",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с картриджем",
+          "returnFilter": "Фильтр тонкой очистки обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Термодатчик"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Плунжерные",
+          "strokeLength": "1600 мм",
+          "diameter": "105 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "85 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-1SN",
+          "length": "1800 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "0/90",
+          "maxPressure": "320 бар"
+        },
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "45/45",
+          "maxPressure": "350 бар"
+        }
+      ],
+      "loadCapacity": "12 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Панель управления с дисплеем",
+        "emergencyStop": "Автоматический аварийный выключатель"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Уравнительная платформа №5",
+      "manufacturer": "ProLift",
+      "hydraulicStation": {
+        "name": "HydroForce P500",
+        "type": "Электрогидравлическая",
+        "power": "5.5 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Магистральный фильтр высокого давления",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан предохранительный давления",
+          "temperature": "Сигнализатор высокой температуры"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "1400 мм",
+          "diameter": "95 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "700 мм",
+          "diameter": "80 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 6-2SN",
+          "length": "1500 мм",
+          "fittingType": "JIC",
+          "thread": "M14x1.5",
+          "angle": "0/0",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 8-2SN",
+          "length": "2000 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "0/45",
+          "maxPressure": "350 бар"
+        }
+      ],
+      "loadCapacity": "10 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматизированный контроль нагрузки",
+        "emergencyStop": "Ручной аварийный выключатель"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Уравнительная платформа №6",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "PowerLift S600",
+        "type": "Электрогидравлическая",
+        "power": "7.0 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Магистральный фильтр высокого давления",
+          "returnFilter": "Обратный фильтр картриджного типа"
+        },
+        "protection": {
+          "overload": "Предохранительный клапан давления",
+          "temperature": "Термодатчик с аварийным сигналом"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "1800 мм",
+          "diameter": "110 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "800 мм",
+          "diameter": "85 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Система с предустановками по типу груза",
+        "emergencyStop": "Автоматический аварийный выключатель"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Уравнительная платформа №7",
+      "manufacturer": "HydroTech",
+      "hydraulicStation": {
+        "name": "HydroMaster H700",
+        "type": "Электрогидравлическая",
+        "power": "6.8 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с металлической сеткой",
+          "returnFilter": "Картриджный фильтр тонкой очистки"
+        },
+        "protection": {
+          "overload": "Гидравлический клапан сброса",
+          "temperature": "Термореле на 60°C"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "1700 мм",
+          "diameter": "100 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "85 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-2SN",
+          "length": "1800 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "45/45",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 10-2SN",
+          "length": "2200 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "12 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Сенсорная панель управления",
+        "emergencyStop": "Кнопка быстрого отключения"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Уравнительная платформа №8",
+      "manufacturer": "LiftPro",
+      "hydraulicStation": {
+        "name": "ProHydro P800",
+        "type": "Электрогидравлическая",
+        "power": "7.2 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан перенаправления",
+          "temperature": "Сигнализатор перегрева"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "0/0",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматическое управление рабочим режимом",
+        "emergencyStop": "Электронная кнопка аварийного отключения"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Уравнительная платформа №9",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "ForceMaster F900",
+        "type": "Электрогидравлическая",
+        "power": "6.0 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Сетчатый фильтр высокого давления",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан предохранения",
+          "temperature": "Контроль температуры масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Плунжерные",
+          "strokeLength": "1500 мм",
+          "diameter": "110 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "700 мм",
+          "diameter": "80 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-1SN",
+          "length": "1700 мм",
+          "fittingType": "JIC",
+          "thread": "M16x1.5",
+          "angle": "0/45",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 6-2SN",
+          "length": "1500 мм",
+          "fittingType": "DKOS",
+          "thread": "M14x1.5",
+          "angle": "45/45",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "12 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Электронный контроллер нагрузки",
+        "emergencyStop": "Электромеханический аварийный выключатель"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Уравнительная платформа №10",
+      "manufacturer": "HydroLift",
+      "hydraulicStation": {
+        "name": "LiftSystem LS1000",
+        "type": "Электрогидравлическая",
+        "power": "7.0 кВт",
+        "hydraulicOil": "HLP 32",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления",
+          "returnFilter": "Картриджный фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Датчик перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "1800 мм",
+          "diameter": "115 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-1SN",
+          "length": "2300 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "2700 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Программируемая панель управления",
+        "emergencyStop": "Кнопка аварийного отключения"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Уравнительная платформа №11",
+      "manufacturer": "LiftPro",
+      "hydraulicStation": {
+        "name": "ProHydro P1100",
+        "type": "Электрогидравлическая",
+        "power": "7.8 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с металлической сеткой",
+          "returnFilter": "Картриджный фильтр тонкой очистки"
+        },
+        "protection": {
+          "overload": "Клапан ограничения давления",
+          "temperature": "Датчик перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматическая настройка режимов работы",
+        "emergencyStop": "Кнопка аварийного отключения"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Уравнительная платформа №12",
+      "manufacturer": "HydroTech",
+      "hydraulicStation": {
+        "name": "HydroLift H1200",
+        "type": "Электрогидравлическая",
+        "power": "6.5 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Фильтр тонкой очистки высокого давления",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан предохранительного давления",
+          "temperature": "Сигнализатор перегрева"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "1800 мм",
+          "diameter": "110 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "85 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-1SN",
+          "length": "1800 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "0/45",
+          "maxPressure": "320 бар"
+        },
+        {
+          "type": "РВД 10-1SN",
+          "length": "2300 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "45/45",
+          "maxPressure": "350 бар"
+        }
+      ],
+      "loadCapacity": "12 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Электронное управление с сенсорным дисплеем",
+        "emergencyStop": "Аварийное отключение"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Уравнительная платформа №13",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "ForceMaster F1300",
+        "type": "Электрогидравлическая",
+        "power": "7.0 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Картриджный фильтр высокого давления",
+          "returnFilter": "Сетчатый фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан ограничения давления",
+          "temperature": "Датчик температуры"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "1500 мм",
+          "diameter": "100 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "700 мм",
+          "diameter": "75 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 6-1SN",
+          "length": "1500 мм",
+          "fittingType": "DKOS",
+          "thread": "M14x1.5",
+          "angle": "0/0",
+          "maxPressure": "320 бар"
+        },
+        {
+          "type": "РВД 8-2SN",
+          "length": "2000 мм",
+          "fittingType": "JIC",
+          "thread": "M16x1.5",
+          "angle": "45/45",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "10 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Пульт управления",
+        "emergencyStop": "Аварийное отключение"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Уравнительная платформа №14",
+      "manufacturer": "LiftPro",
+      "hydraulicStation": {
+        "name": "ProLift P1400",
+        "type": "Электрогидравлическая",
+        "power": "8.0 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Магистральный фильтр высокого давления",
+          "returnFilter": "Обратный фильтр тонкой очистки"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Термореле"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "85 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "0/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "20 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматическая система управления",
+        "emergencyStop": "Механический аварийный выключатель"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Уравнительная платформа №15",
+      "manufacturer": "HydroTech",
+      "hydraulicStation": {
+        "name": "HydroLift H1500",
+        "type": "Электрогидравлическая",
+        "power": "7.5 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с картриджем",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан предохранительного давления",
+          "temperature": "Датчик перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-1SN",
+          "length": "2200 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "20 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Сенсорная панель управления",
+        "emergencyStop": "Аварийное отключение"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Уравнительная платформа №16",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "ForceMaster F1600",
+        "type": "Электрогидравлическая",
+        "power": "8.0 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Фильтр тонкой очистки высокого давления",
+          "returnFilter": "Сетчатый фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Термореле"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "1800 мм",
+          "diameter": "110 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "800 мм",
+          "diameter": "85 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-1SN",
+          "length": "1900 мм",
+          "fittingType": "JIC",
+          "thread": "M16x1.5",
+          "angle": "0/90",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "45/45",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматическая система управления",
+        "emergencyStop": "Кнопка быстрого отключения"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Уравнительная платформа №17",
+      "manufacturer": "ProLift",
+      "hydraulicStation": {
+        "name": "ProLift H1700",
+        "type": "Электрогидравлическая",
+        "power": "7.2 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с металлической сеткой",
+          "returnFilter": "Картриджный фильтр тонкой очистки"
+        },
+        "protection": {
+          "overload": "Клапан предохранения давления",
+          "temperature": "Сигнализация перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "20 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Программируемый контроллер",
+        "emergencyStop": "Аварийный отключатель питания"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Уравнительная платформа №18",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "ForceMaster F1800",
+        "type": "Электрогидравлическая",
+        "power": "7.8 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Картриджный фильтр высокого давления",
+          "returnFilter": "Фильтр обратного потока с мелкой очисткой"
+        },
+        "protection": {
+          "overload": "Клапан предохранения давления",
+          "temperature": "Датчик перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "1900 мм",
+          "diameter": "110 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "85 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-1SN",
+          "length": "1800 мм",
+          "fittingType": "JIC",
+          "thread": "M16x1.5",
+          "angle": "45/45",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "16 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Программируемая панель управления",
+        "emergencyStop": "Электронная система аварийного выключения"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Уравнительная платформа №19",
+      "manufacturer": "HydroTech",
+      "hydraulicStation": {
+        "name": "HydroLift H1900",
+        "type": "Электрогидравлическая",
+        "power": "8.0 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с сеткой",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Сигнализатор температуры масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Плунжерные",
+          "strokeLength": "2100 мм",
+          "diameter": "120 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "950 мм",
+          "diameter": "90 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-1SN",
+          "length": "2000 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "0/45",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "18 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Панель управления с цифровым дисплеем",
+        "emergencyStop": "Механический аварийный выключатель"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Уравнительная платформа №20",
+      "manufacturer": "ProLift",
+      "hydraulicStation": {
+        "name": "ProHydro P2000",
+        "type": "Электрогидравлическая",
+        "power": "8.5 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Фильтр тонкой очистки высокого давления",
+          "returnFilter": "Картриджный фильтр тонкой очистки"
+        },
+        "protection": {
+          "overload": "Клапан ограничения давления",
+          "temperature": "Датчик температуры"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "2200 мм",
+          "diameter": "125 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2700 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "0/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-1SN",
+          "length": "3100 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "20 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматизированная система управления с предустановками",
+        "emergencyStop": "Кнопка аварийной остановки"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Уравнительная платформа №21",
+      "manufacturer": "HydroLift",
+      "hydraulicStation": {
+        "name": "LiftMax L2100",
+        "type": "Электрогидравлическая",
+        "power": "8.2 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Картриджный фильтр высокого давления",
+          "returnFilter": "Сетчатый фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан ограничения давления",
+          "temperature": "Датчик температуры масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "2100 мм",
+          "diameter": "115 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2600 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "0/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3100 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "20 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматизированная панель управления",
+        "emergencyStop": "Механический аварийный выключатель"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Уравнительная платформа №22",
+      "manufacturer": "LiftPro",
+      "hydraulicStation": {
+        "name": "ProForce F2200",
+        "type": "Электрогидравлическая",
+        "power": "8.5 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Фильтр тонкой очистки высокого давления",
+          "returnFilter": "Фильтр обратного потока с сетчатой структурой"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Сигнализация температуры масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "2200 мм",
+          "diameter": "125 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "85 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2800 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-1SN",
+          "length": "3200 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "22 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Электронная система управления",
+        "emergencyStop": "Электронное аварийное отключение"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Уравнительная платформа №23",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "ForceMax F2300",
+        "type": "Электрогидравлическая",
+        "power": "9.0 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с металлической структурой",
+          "returnFilter": "Сетчатый фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан ограничения давления",
+          "temperature": "Термореле"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "2300 мм",
+          "diameter": "130 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-1SN",
+          "length": "2900 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "0/45",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3300 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "24 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Программируемая панель управления",
+        "emergencyStop": "Автоматический аварийный выключатель"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Уравнительная платформа №24",
+      "manufacturer": "HydroLift",
+      "hydraulicStation": {
+        "name": "HydroLift HL2400",
+        "type": "Электрогидравлическая",
+        "power": "8.8 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Фильтр тонкой очистки высокого давления",
+          "returnFilter": "Фильтр обратного потока с сетчатой структурой"
+        },
+        "protection": {
+          "overload": "Клапан предохранения давления",
+          "temperature": "Сигнализация температуры масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "2400 мм",
+          "diameter": "135 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "950 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-1SN",
+          "length": "3000 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-1SN",
+          "length": "3400 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "25 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматизированная система управления",
+        "emergencyStop": "Электронное аварийное отключение"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Уравнительная платформа №1",
+      "manufacturer": "HydroTech",
+      "hydraulicStation": {
+        "name": "HydroLift S100",
+        "type": "Электрогидравлическая",
+        "power": "5.5 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Сетчатый фильтр высокого давления",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Датчик перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "1500 мм",
+          "diameter": "100 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "800 мм",
+          "diameter": "80 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 6-1SN",
+          "length": "1500 мм",
+          "fittingType": "DKOS",
+          "thread": "M14x1.5",
+          "angle": "0/0",
+          "maxPressure": "320 бар"
+        },
+        {
+          "type": "РВД 8-2SN",
+          "length": "2000 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "0/90",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "10 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Пульт дистанционного управления",
+        "emergencyStop": "Механический аварийный выключатель"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Уравнительная платформа №2",
+      "manufacturer": "LiftPro",
+      "hydraulicStation": {
+        "name": "ProLift H200",
+        "type": "Электрогидравлическая",
+        "power": "7.5 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления",
+          "returnFilter": "Сетчатый фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан перегрузки давления",
+          "temperature": "Датчик температуры масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Плунжерные",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматизированный контроллер с сенсорным экраном",
+        "emergencyStop": "Кнопка аварийного отключения"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Уравнительная платформа №3",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "ForceLift F300",
+        "type": "Электрогидравлическая",
+        "power": "6.5 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Фильтр с тонкой очисткой",
+          "returnFilter": "Обратный фильтр картриджного типа"
+        },
+        "protection": {
+          "overload": "Сбросной клапан высокого давления",
+          "temperature": "Сигнализатор высокой температуры"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "1800 мм",
+          "diameter": "110 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "700 мм",
+          "diameter": "75 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-1SN",
+          "length": "1800 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "0/0",
+          "maxPressure": "320 бар"
+        },
+        {
+          "type": "РВД 6-2SN",
+          "length": "1200 мм",
+          "fittingType": "JIC",
+          "thread": "M14x1.5",
+          "angle": "0/45",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "12 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Модуль программируемого управления",
+        "emergencyStop": "Электронный аварийный выключатель"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Уравнительная платформа №4",
+      "manufacturer": "HydroLift",
+      "hydraulicStation": {
+        "name": "LiftMaster L400",
+        "type": "Электрогидравлическая",
+        "power": "6.0 кВт",
+        "hydraulicOil": "HLP 32",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с картриджем",
+          "returnFilter": "Фильтр тонкой очистки обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Термодатчик"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Плунжерные",
+          "strokeLength": "1600 мм",
+          "diameter": "105 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "85 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-1SN",
+          "length": "1800 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "0/90",
+          "maxPressure": "320 бар"
+        },
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "45/45",
+          "maxPressure": "350 бар"
+        }
+      ],
+      "loadCapacity": "12 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Панель управления с дисплеем",
+        "emergencyStop": "Автоматический аварийный выключатель"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Уравнительная платформа №5",
+      "manufacturer": "ProLift",
+      "hydraulicStation": {
+        "name": "HydroForce P500",
+        "type": "Электрогидравлическая",
+        "power": "5.5 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Магистральный фильтр высокого давления",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан предохранительный давления",
+          "temperature": "Сигнализатор высокой температуры"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "1400 мм",
+          "diameter": "95 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "700 мм",
+          "diameter": "80 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 6-2SN",
+          "length": "1500 мм",
+          "fittingType": "JIC",
+          "thread": "M14x1.5",
+          "angle": "0/0",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 8-2SN",
+          "length": "2000 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "0/45",
+          "maxPressure": "350 бар"
+        }
+      ],
+      "loadCapacity": "10 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматизированный контроль нагрузки",
+        "emergencyStop": "Ручной аварийный выключатель"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Уравнительная платформа №6",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "PowerLift S600",
+        "type": "Электрогидравлическая",
+        "power": "7.0 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Магистральный фильтр высокого давления",
+          "returnFilter": "Обратный фильтр картриджного типа"
+        },
+        "protection": {
+          "overload": "Предохранительный клапан давления",
+          "temperature": "Термодатчик с аварийным сигналом"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "1800 мм",
+          "diameter": "110 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "800 мм",
+          "diameter": "85 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Система с предустановками по типу груза",
+        "emergencyStop": "Автоматический аварийный выключатель"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Уравнительная платформа №7",
+      "manufacturer": "HydroTech",
+      "hydraulicStation": {
+        "name": "HydroMaster H700",
+        "type": "Электрогидравлическая",
+        "power": "6.8 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с металлической сеткой",
+          "returnFilter": "Картриджный фильтр тонкой очистки"
+        },
+        "protection": {
+          "overload": "Гидравлический клапан сброса",
+          "temperature": "Термореле на 60°C"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "1700 мм",
+          "diameter": "100 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "85 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-2SN",
+          "length": "1800 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "45/45",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 10-2SN",
+          "length": "2200 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "12 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Сенсорная панель управления",
+        "emergencyStop": "Кнопка быстрого отключения"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Уравнительная платформа №8",
+      "manufacturer": "LiftPro",
+      "hydraulicStation": {
+        "name": "ProHydro P800",
+        "type": "Электрогидравлическая",
+        "power": "7.2 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан перенаправления",
+          "temperature": "Сигнализатор перегрева"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "0/0",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматическое управление рабочим режимом",
+        "emergencyStop": "Электронная кнопка аварийного отключения"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Уравнительная платформа №9",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "ForceMaster F900",
+        "type": "Электрогидравлическая",
+        "power": "6.0 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Сетчатый фильтр высокого давления",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан предохранения",
+          "temperature": "Контроль температуры масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Плунжерные",
+          "strokeLength": "1500 мм",
+          "diameter": "110 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "700 мм",
+          "diameter": "80 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-1SN",
+          "length": "1700 мм",
+          "fittingType": "JIC",
+          "thread": "M16x1.5",
+          "angle": "0/45",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 6-2SN",
+          "length": "1500 мм",
+          "fittingType": "DKOS",
+          "thread": "M14x1.5",
+          "angle": "45/45",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "12 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Электронный контроллер нагрузки",
+        "emergencyStop": "Электромеханический аварийный выключатель"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Уравнительная платформа №10",
+      "manufacturer": "HydroLift",
+      "hydraulicStation": {
+        "name": "LiftSystem LS1000",
+        "type": "Электрогидравлическая",
+        "power": "7.0 кВт",
+        "hydraulicOil": "HLP 32",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления",
+          "returnFilter": "Картриджный фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Датчик перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "1800 мм",
+          "diameter": "115 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-1SN",
+          "length": "2300 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "2700 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Программируемая панель управления",
+        "emergencyStop": "Кнопка аварийного отключения"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Уравнительная платформа №11",
+      "manufacturer": "LiftPro",
+      "hydraulicStation": {
+        "name": "ProHydro P1100",
+        "type": "Электрогидравлическая",
+        "power": "7.8 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с металлической сеткой",
+          "returnFilter": "Картриджный фильтр тонкой очистки"
+        },
+        "protection": {
+          "overload": "Клапан ограничения давления",
+          "temperature": "Датчик перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "15 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматическая настройка режимов работы",
+        "emergencyStop": "Кнопка аварийного отключения"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Уравнительная платформа №12",
+      "manufacturer": "HydroTech",
+      "hydraulicStation": {
+        "name": "HydroLift H1200",
+        "type": "Электрогидравлическая",
+        "power": "6.5 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Фильтр тонкой очистки высокого давления",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан предохранительного давления",
+          "temperature": "Сигнализатор перегрева"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 3,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "1800 мм",
+          "diameter": "110 мм",
+          "material": "Хромированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "85 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 8-1SN",
+          "length": "1800 мм",
+          "fittingType": "DKOS",
+          "thread": "M16x1.5",
+          "angle": "0/45",
+          "maxPressure": "320 бар"
+        },
+        {
+          "type": "РВД 10-1SN",
+          "length": "2300 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "45/45",
+          "maxPressure": "350 бар"
+        }
+      ],
+      "loadCapacity": "12 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Электронное управление с сенсорным дисплеем",
+        "emergencyStop": "Аварийное отключение"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Уравнительная платформа №13",
+      "manufacturer": "LiftForce",
+      "hydraulicStation": {
+        "name": "ForceMaster F1300",
+        "type": "Электрогидравлическая",
+        "power": "7.0 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Картриджный фильтр высокого давления",
+          "returnFilter": "Сетчатый фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан ограничения давления",
+          "temperature": "Датчик температуры"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Телескопические",
+          "strokeLength": "1500 мм",
+          "diameter": "100 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 1,
+        "description": {
+          "type": "Одностороннего действия",
+          "strokeLength": "700 мм",
+          "diameter": "75 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 6-1SN",
+          "length": "1500 мм",
+          "fittingType": "DKOS",
+          "thread": "M14x1.5",
+          "angle": "0/0",
+          "maxPressure": "320 бар"
+        },
+        {
+          "type": "РВД 8-2SN",
+          "length": "2000 мм",
+          "fittingType": "JIC",
+          "thread": "M16x1.5",
+          "angle": "45/45",
+          "maxPressure": "400 бар"
+        }
+      ],
+      "loadCapacity": "10 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Пульт управления",
+        "emergencyStop": "Аварийное отключение"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Уравнительная платформа №14",
+      "manufacturer": "LiftPro",
+      "hydraulicStation": {
+        "name": "ProLift P1400",
+        "type": "Электрогидравлическая",
+        "power": "8.0 кВт",
+        "hydraulicOil": "HLP 46",
+        "filters": {
+          "mainFilter": "Магистральный фильтр высокого давления",
+          "returnFilter": "Обратный фильтр тонкой очистки"
+        },
+        "protection": {
+          "overload": "Клапан сброса давления",
+          "temperature": "Термореле"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "900 мм",
+          "diameter": "85 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-2SN",
+          "length": "2500 мм",
+          "fittingType": "DKOS",
+          "thread": "M20x1.5",
+          "angle": "0/90",
+          "maxPressure": "400 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "JIC",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "20 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Автоматическая система управления",
+        "emergencyStop": "Механический аварийный выключатель"
+      }
+    },
+    {
+      "id": 39,
+      "name": "Уравнительная платформа №15",
+      "manufacturer": "HydroTech",
+      "hydraulicStation": {
+        "name": "HydroLift H1500",
+        "type": "Электрогидравлическая",
+        "power": "7.5 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с картриджем",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан предохранительного давления",
+          "temperature": "Датчик перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-1SN",
+          "length": "2200 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "20 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Сенсорная панель управления",
+        "emergencyStop": "Аварийное отключение"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Уравнительная платформа №15",
+      "manufacturer": "HydroTech",
+      "hydraulicStation": {
+        "name": "HydroLift H1500",
+        "type": "Электрогидравлическая",
+        "power": "7.5 кВт",
+        "hydraulicOil": "HLP 68",
+        "filters": {
+          "mainFilter": "Фильтр высокого давления с картриджем",
+          "returnFilter": "Фильтр обратного потока"
+        },
+        "protection": {
+          "overload": "Клапан предохранительного давления",
+          "temperature": "Датчик перегрева масла"
+        }
+      },
+      "liftingCylinders": {
+        "quantity": 4,
+        "description": {
+          "type": "Гидравлические",
+          "strokeLength": "2000 мм",
+          "diameter": "120 мм",
+          "material": "Легированная сталь"
+        }
+      },
+      "apronCylinders": {
+        "quantity": 2,
+        "description": {
+          "type": "Двустороннего действия",
+          "strokeLength": "1000 мм",
+          "diameter": "90 мм",
+          "material": "Закалённая сталь"
+        }
+      },
+      "pressureHoses": [
+        {
+          "type": "РВД 10-1SN",
+          "length": "2200 мм",
+          "fittingType": "JIC",
+          "thread": "M20x1.5",
+          "angle": "90/90",
+          "maxPressure": "350 бар"
+        },
+        {
+          "type": "РВД 12-2SN",
+          "length": "3000 мм",
+          "fittingType": "DKOS",
+          "thread": "M22x1.5",
+          "angle": "45/45",
+          "maxPressure": "450 бар"
+        }
+      ],
+      "loadCapacity": "20 тонн",
+      "additionalFeatures": {
+        "controlSystem": "Сенсорная панель управления",
+        "emergencyStop": "Аварийное отключение"
+      }
+    }
+  ]
+}
