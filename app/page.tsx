@@ -1,7 +1,10 @@
 import React from 'react';
 // import MyTables from '@/components/MyTables';
 import Link from 'next/link';
-const HomePage = () => {
+import { getData } from '@/utils/actions';
+const HomePage = async () => {
+  const data = await getData();
+  console.log(data);
   return (
     <div className=''>
       {/* <MyTables /> */}
@@ -19,6 +22,13 @@ const HomePage = () => {
           go to drinks page
         </Link>
       </nav>
+      <div>
+        <ul>
+          {data.map((item) => {
+            return <li key={item.id}>{item.name}</li>;
+          })}
+        </ul>
+      </div>
     </div>
   );
 };
