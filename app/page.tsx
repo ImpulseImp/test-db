@@ -2,9 +2,11 @@ import React from 'react';
 // import MyTables from '@/components/MyTables';
 import Link from 'next/link';
 import { getData } from '@/utils/actions';
+
+import DeleteForm from '@/components/DeleteForm';
 const HomePage = async () => {
   const data = await getData();
-  console.log(data);
+
   return (
     <div className=''>
       {/* <MyTables /> */}
@@ -23,9 +25,17 @@ const HomePage = async () => {
         </Link>
       </nav>
       <div>
-        <ul>
-          {data.map((item) => {
-            return <li key={item.id}>{item.name}</li>;
+        <ul className='flex  flex-col space-y-4 justify-center max-w-xl'>
+          {data.map((item, idx) => {
+            return (
+              <li key={item.id} className='flex justify-between items-center'>
+                <h1 className='font-semibold text-lg'>
+                  <span>{idx + 1}. </span>
+                  {item.name}
+                </h1>
+                <DeleteForm itemID={item.id} />
+              </li>
+            );
           })}
         </ul>
       </div>
